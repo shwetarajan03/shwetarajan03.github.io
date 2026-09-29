@@ -1,62 +1,130 @@
-# Site settings
-title: Shweta Soundararajan
-description: NLP Researcher | PhD from Technological University Dublin | Responsible AI & Large Language Models
-repository: shwetarajan03/shwetarajan03.github.io
+# Site Settings
+title                    : "Shweta Soundararajan"
+description              : "NLP Researcher | PhD from Technological University Dublin | Responsible AI & Large Language Models"
+repository               : "shwetarajan03/shwetarajan03.github.io"
+google_scholar_stats_use_cdn : true
 
-# User settings
+# google analytics
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+
+# SEO Related
+google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+
+# Site Author
 author:
-  name: Shweta Soundararajan
-  bio: NLP Researcher with focus on Responsible AI and Large Language Models
-  scholar_userid: o4k-5I8AAAAJ
-  googlescholar: https://scholar.google.com/citations?user=o4k-5I8AAAAJ&hl=en
-  github_username: shwetarajan03
-  linkedin_username: shwetarajan03
-  avatar: 
-  uri: https://shwetarajan03.github.io
+  name             : "Shweta Soundararajan"
+  avatar           : "images/profile.jpg"
+  bio              : "NLP Researcher with focus on Responsible AI and Large Language Models"
+  location         : ""
+  employer         :
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=o4k-5I8AAAAJ&hl=en"
+  email            : "shweta03rajan@gmail.com"
+  researchgate     :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "shwetarajan03"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      :
+  lastfm           :
+  linkedin         : "shwetarajan03"
+  dblp             :
+  orcid            :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          : 
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
 
-# Site settings
-url: "https://shwetarajan03.github.io"
-baseurl: ""
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Language settings
-lang: en
-
-# Google Analytics
-google_analytics_id: 
-
-# Markdown Settings
+# Conversion
 markdown: kramdown
 highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
 kramdown:
   input: GFM
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-# Exclude from processing
-exclude:
-  - .jekyll-cache/
-  - .sass-cache/
-  - '*.gemspec'
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: UTC
 
 # Plugins
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
   - jekyll-sitemap
-
-# Keep files
-keep_files:
-  - CNAME
-  - .nojekyll
-  - .git
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from

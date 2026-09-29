@@ -1,21 +1,16 @@
 ---
-layout: about
-title: about
 permalink: /
-subtitle: NLP Researcher | Responsible AI | LLMs
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
-  
-news: true
-latest_posts: false
-selected_papers: true
-social: true
+title: ""
+excerpt: "Shweta Soundararajan is an NLP researcher with a focus on Responsible AI and Large Language Models"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
-## Shweta Soundararajan
+<span class='anchor' id='about-me'></span>
+
+## About Me
 
 Hi! 😄 I'm Shweta Soundararajan, a dedicated NLP researcher with a strong focus on Responsible AI and Large Language Models (LLMs). I hold a PhD from Technological University Dublin and a Master's degree in Computing from Dublin City University, Ireland. With over 6 years of industrial experience in NLP and Machine Learning, my research interests span Neural Machine Translation (NMT), Large Language Models, Low-Resource NMT, Domain Adaptation, and Reinforcement Learning.
 
@@ -32,13 +27,13 @@ My passion is to explore new technologies and harness the power of Machine Learn
 
 # 🔥 News
 
-News items will appear here when added to the `_news/` directory.
+Stay tuned for updates!
 
 ---
 
 # 📝 Publications
 
-Selected publications and papers will appear here when marked as "selected={true}" in your bibliography.
+My research contributions are published in reputable venues. You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=o4k-5I8AAAAJ&hl=en).
 
 ---
 
